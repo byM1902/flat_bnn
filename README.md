@@ -1,4 +1,4 @@
-#Flat Seeking Bayesian Neural Networks
+# Flat Seeking Bayesian Neural Networks
 
 ## SWAG + SAM
 ### Install envs
