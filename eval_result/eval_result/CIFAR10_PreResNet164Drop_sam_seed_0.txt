@@ -1,0 +1,48 @@
+=========    DropOut    ===========================
+file:	/vinai/trunglm12/log_models_multi_seed/cifar10/swag_mix/PreResNet164Drop_sam_seed=0/checkpoint-300.pt
+dataset:	CIFAR10
+data_path:	/home/ubuntu/vit_selfOT/ViT-pytorch/data
+use_test:	True
+batch_size:	128
+split_classes:	None
+num_workers:	4
+model:	PreResNet164Drop
+method:	Dropout
+save_path:	None
+N:	30
+scale:	1.0
+cov_mat:	False
+use_diag:	False
+seed:	0
+log_path:	/home/ubuntu/swa_gaussian/log_models/eval_result/CIFAR10_PreResNet164Drop_sam_seed_0.txt
+run_name:	DropOut
+	---  Seed 0 - DropOut     ---------------------------
+Accuracy:	96.23
+NLL:	0.11563190224418109
+ECE:	0.012426802092319722
+
+
+=========    SWA_Dropout    ===========================
+file:	/vinai/trunglm12/log_models_multi_seed/cifar10/swag_mix/PreResNet164Drop_sam_seed=0/swag-300.pt
+dataset:	CIFAR10
+data_path:	/home/ubuntu/vit_selfOT/ViT-pytorch/data
+use_test:	True
+batch_size:	128
+split_classes:	None
+num_workers:	4
+model:	PreResNet164Drop
+method:	SWAGDrop
+save_path:	None
+N:	30
+scale:	0.0
+cov_mat:	True
+use_diag:	True
+seed:	0
+log_path:	/home/ubuntu/swa_gaussian/log_models/eval_result/CIFAR10_PreResNet164Drop_sam_seed_0.txt
+run_name:	SWA_Dropout
+	---  Seed 0 - SWA_Dropout     ---------------------------
+Accuracy:	96.25
+NLL:	0.10836193177025437
+ECE:	0.007319169712014511
+
+

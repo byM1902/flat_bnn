@@ -1,0 +1,113 @@
+=========    SWA    ===========================
+file:	/vinai/trunglm12/log_models_multi_seed/cifar100/swag_mix/PreResNet164-baseline/swag-300.pt
+dataset:	CIFAR100
+data_path:	/home/ubuntu/vit_selfOT/ViT-pytorch/data
+use_test:	True
+batch_size:	128
+split_classes:	None
+num_workers:	4
+model:	PreResNet164
+method:	SWAG
+save_path:	None
+N:	1
+scale:	0.0
+cov_mat:	True
+use_diag:	True
+seed:	1
+log_path:	/home/ubuntu/swa_gaussian/log_models/eval_result/CIFAR100_PreResNet164_baseline.txt
+run_name:	SWA
+	---  Seed 1 - SWA     ---------------------------
+Accuracy:	80.25
+NLL:	0.7979875401379506
+ECE:	0.0873399429768324
+--------- ECE stat ----------ACC: [0.         0.         0.2        0.11764706 0.18       0.2625
+ 0.33333333 0.1981982  0.32624113 0.44171779 0.43162393 0.41322314
+ 0.42424242 0.52671756 0.51282051 0.46332046 0.60069444 0.66846361
+ 0.73728814 0.94967508]Conf: [0.         0.         0.13885932 0.18447134 0.2280861  0.27576014
+ 0.32383757 0.37641821 0.42633614 0.47685807 0.5257171  0.57554827
+ 0.62402161 0.6757272  0.72514291 0.77579906 0.82621696 0.87536253
+ 0.92697339 0.99458095]Bm: [0.000e+00 0.000e+00 5.000e+00 1.700e+01 5.000e+01 8.000e+01 1.050e+02
+ 1.110e+02 1.410e+02 1.630e+02 2.340e+02 2.420e+02 2.310e+02 2.620e+02
+ 2.340e+02 2.590e+02 2.880e+02 3.710e+02 5.900e+02 6.617e+03]
+
+=========    SWAG-scale=0.1    ===========================
+file:	/vinai/trunglm12/log_models_multi_seed/cifar100/swag_mix/PreResNet164-baseline/swag-300.pt
+dataset:	CIFAR100
+data_path:	/home/ubuntu/vit_selfOT/ViT-pytorch/data
+use_test:	True
+batch_size:	128
+split_classes:	None
+num_workers:	4
+model:	PreResNet164
+method:	SWAG
+save_path:	None
+N:	30
+scale:	0.1
+cov_mat:	True
+use_diag:	False
+seed:	1
+log_path:	/home/ubuntu/swa_gaussian/log_models/eval_result/CIFAR100_PreResNet164_baseline.txt
+run_name:	SWAG-scale=0.1
+	---  Seed 1 - SWAG-scale=0.1     ---------------------------
+Accuracy:	80.49
+NLL:	0.7271696516418293
+ECE:	0.05576151300431692
+--------- ECE stat ----------ACC: [0.         0.         0.         0.16129032 0.19047619 0.24742268
+ 0.30597015 0.35185185 0.39378238 0.37391304 0.471875   0.4874552
+ 0.48387097 0.54411765 0.57894737 0.64285714 0.72049689 0.76363636
+ 0.8190184  0.96696035]Conf: [0.         0.         0.13853973 0.18053404 0.22925024 0.27961684
+ 0.32591693 0.37642656 0.42807325 0.47507199 0.52507793 0.57582497
+ 0.62731814 0.67423507 0.72558491 0.77520278 0.82540207 0.87639003
+ 0.92738403 0.99386321]Bm: [0.000e+00 0.000e+00 5.000e+00 3.100e+01 8.400e+01 9.700e+01 1.340e+02
+ 1.620e+02 1.930e+02 2.300e+02 3.200e+02 2.790e+02 2.790e+02 2.720e+02
+ 3.040e+02 2.940e+02 3.220e+02 4.400e+02 6.520e+02 5.902e+03]
+
+=========    SWAG-Diagonal-scale=0.2    ===========================
+file:	--file=/vinai/trunglm12/log_models_multi_seed/cifar100/swag_mix/PreResNet164-baseline/swag-300.pt
+dataset:	CIFAR100
+data_path:	/home/ubuntu/vit_selfOT/ViT-pytorch/data
+use_test:	True
+batch_size:	128
+split_classes:	None
+num_workers:	4
+model:	PreResNet164
+method:	SWAG
+save_path:	None
+N:	30
+scale:	0.2
+cov_mat:	True
+use_diag:	True
+seed:	1
+log_path:	/home/ubuntu/swa_gaussian/log_models/eval_result/CIFAR100_PreResNet164_baseline.txt
+run_name:	SWAG-Diagonal-scale=0.2
+=========    SWAG-Diagonal-scale=0.2    ===========================
+file:	/vinai/trunglm12/log_models_multi_seed/cifar100/swag_mix/PreResNet164-baseline/swag-300.pt
+dataset:	CIFAR100
+data_path:	/home/ubuntu/vit_selfOT/ViT-pytorch/data
+use_test:	True
+batch_size:	128
+split_classes:	None
+num_workers:	4
+model:	PreResNet164
+method:	SWAG
+save_path:	None
+N:	30
+scale:	0.2
+cov_mat:	True
+use_diag:	True
+seed:	1
+log_path:	/home/ubuntu/swa_gaussian/log_models/eval_result/CIFAR100_PreResNet164_baseline.txt
+run_name:	SWAG-Diagonal-scale=0.2
+	---  Seed 1 - SWAG-Diagonal-scale=0.2     ---------------------------
+Accuracy:	80.34
+NLL:	0.7009026990698843
+ECE:	0.035796901885144096
+--------- ECE stat ----------ACC: [0.         0.         0.2        0.18421053 0.20754717 0.25806452
+ 0.29761905 0.352657   0.38362069 0.43214286 0.46407186 0.51456311
+ 0.5477707  0.58666667 0.63782051 0.71523179 0.7799511  0.82012848
+ 0.84952978 0.97559633]Conf: [0.         0.         0.13689829 0.18122073 0.22476875 0.27656434
+ 0.32604636 0.37486261 0.42609015 0.47545728 0.52500272 0.57471729
+ 0.62634137 0.67381366 0.72402493 0.77581859 0.82577313 0.87608676
+ 0.92635978 0.99264468]Bm: [   0.    0.   10.   38.  106.  124.  168.  207.  232.  280.  334.  309.
+  314.  300.  312.  302.  409.  467.  638. 5450.]
+

@@ -1,0 +1,96 @@
+=========    SGD    ===========================
+file:	/vinai/trunglm12/log_models_multi_seed/cifar10/swag_mix/PreResNet164_sam_seed=0/checkpoint-300.pt
+dataset:	CIFAR10
+data_path:	/home/ubuntu/vit_selfOT/ViT-pytorch/data
+use_test:	True
+batch_size:	128
+split_classes:	None
+num_workers:	4
+model:	PreResNet164
+method:	SGD
+save_path:	None
+N:	1
+scale:	1.0
+cov_mat:	False
+use_diag:	False
+seed:	0
+log_path:	/home/ubuntu/swa_gaussian/log_models/eval_result/CIFAR10_PreResNet164_sam_seed_0.txt
+run_name:	SGD
+	---  Seed 0 - SGD     ---------------------------
+Accuracy:	96.2
+NLL:	0.1200840186673292
+ECE:	0.012548112170398272
+
+
+=========    SWA    ===========================
+file:	/vinai/trunglm12/log_models_multi_seed/cifar10/swag_mix/PreResNet164_sam_seed=0/swag-300.pt
+dataset:	CIFAR10
+data_path:	/home/ubuntu/vit_selfOT/ViT-pytorch/data
+use_test:	True
+batch_size:	128
+split_classes:	None
+num_workers:	4
+model:	PreResNet164
+method:	SWAG
+save_path:	None
+N:	1
+scale:	0.0
+cov_mat:	True
+use_diag:	True
+seed:	0
+log_path:	/home/ubuntu/swa_gaussian/log_models/eval_result/CIFAR10_PreResNet164_sam_seed_0.txt
+run_name:	SWA
+	---  Seed 0 - SWA     ---------------------------
+Accuracy:	96.3
+NLL:	0.10992936763522845
+ECE:	0.0068989028394222714
+
+
+=========    SWAG-scale=0.1    ===========================
+file:	/vinai/trunglm12/log_models_multi_seed/cifar10/swag_mix/PreResNet164_sam_seed=0/swag-300.pt
+dataset:	CIFAR10
+data_path:	/home/ubuntu/vit_selfOT/ViT-pytorch/data
+use_test:	True
+batch_size:	128
+split_classes:	None
+num_workers:	4
+model:	PreResNet164
+method:	SWAG
+save_path:	None
+N:	30
+scale:	0.1
+cov_mat:	True
+use_diag:	False
+seed:	0
+log_path:	/home/ubuntu/swa_gaussian/log_models/eval_result/CIFAR10_PreResNet164_sam_seed_0.txt
+run_name:	SWAG-scale=0.1
+	---  Seed 0 - SWAG-scale=0.1     ---------------------------
+Accuracy:	96.27
+NLL:	0.10945962097500817
+ECE:	0.0054520785435877425
+
+
+=========    SWAG-Diagonal-scale=0.2    ===========================
+file:	/vinai/trunglm12/log_models_multi_seed/cifar10/swag_mix/PreResNet164_sam_seed=0/swag-300.pt
+dataset:	CIFAR10
+data_path:	/home/ubuntu/vit_selfOT/ViT-pytorch/data
+use_test:	True
+batch_size:	128
+split_classes:	None
+num_workers:	4
+model:	PreResNet164
+method:	SWAG
+save_path:	None
+N:	30
+scale:	0.2
+cov_mat:	True
+use_diag:	True
+seed:	0
+log_path:	/home/ubuntu/swa_gaussian/log_models/eval_result/CIFAR10_PreResNet164_sam_seed_0.txt
+run_name:	SWAG-Diagonal-scale=0.2
+	---  Seed 0 - SWAG-Diagonal-scale=0.2     ---------------------------
+Accuracy:	96.24000000000001
+NLL:	0.10998401948782469
+ECE:	0.004720318436076835
+
+
