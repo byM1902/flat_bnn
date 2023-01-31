@@ -146,3 +146,8 @@ After eval, please check file `<log-path>/uncertainty_eval.txt`
 #### Example eval on CIFAR10
 `bash script/eval_uncertain.sh "WideResNet28x10" "CIFAR10" "log_models/cifar10/swag_mix" "1"`
 `bash script/eval_uncertain.sh "PreResNet164" "CIFAR10" "log_models/cifar10/swag_mix" "1"`
+
+
+### Acknowledgement
+This repository is based on [SAM](https://github.com/davda54/sam) and [swa_gaussian
+](https://github.com/wjmaddox/swa_gaussian)
