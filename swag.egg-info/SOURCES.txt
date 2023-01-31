@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.py
+swag/__init__.py
+swag/camvid.py
+swag/data.py
+swag/losses.py
+swag/utils.py
+swag.egg-info/PKG-INFO
+swag.egg-info/SOURCES.txt
+swag.egg-info/dependency_links.txt
+swag.egg-info/requires.txt
+swag.egg-info/top_level.txt

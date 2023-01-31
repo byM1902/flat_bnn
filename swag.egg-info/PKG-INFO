@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: swag
+Version: 0.0
+Summary: SWA-Gaussian repo
+Home-page: https://github.com/wjmaddox/swa_gaussian
+Author: Wesley Maddox, Timur Garipov, Pavel Izmailov, Dmitry Vetrov, Andrew Gordon Wilson
+Author-email: wm326@cornell.edu
+License: MPL-2.0
+Classifier: Development Status :: 0
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
